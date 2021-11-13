@@ -1,0 +1,83 @@
+* {
+    margin: auto;
+}
+
+ul {
+ list-style: none;
+}
+
+.navbar {
+    margin-bottom: 5%;
+}
+
+.dropdown-menu {
+    color: black;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom:5%;
+}
+input[type="text"] {
+    width: 30%;
+    border: none;
+}
+
+input[type="number"] {
+    width: 20%;
+    margin-left: 2%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.submit_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 50%; */
+}
+.sum {
+    text-align: center;
+}
+
+.slide {
+    width: 90%;
+}
+
+@media screen and (min-width: 960px) {
+    .slide {
+        width: 60%;
+    }
+    .carousel-item img {
+        width: 800px;
+        height: 600px;
+    }
+}
+
+.carousel-item img {
+    width: 400px;
+    height: 300px;
+}
+.carousel-item h3 {
+    background-color:rgba(0, 0, 0, 0.564);
+    width: 70%;
+}
+.carousel-item p {
+    background-color: rgba(0, 0, 0, 0.564);
+}
